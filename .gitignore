@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+yarn-error.log
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Build outputs
+dist/
+build/
+out/
+
+# Coverage directory
+coverage/
+
+# Cache directories
+.cache/
+.hardhat/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Contract artifacts and typechain
+packages/contracts/artifacts
+packages/contracts/cache
+packages/contracts/typechain
